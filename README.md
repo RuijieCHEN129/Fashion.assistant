@@ -21,3 +21,24 @@ Getting Started
 Clone the repo and navigate into its directory.
 
 Install any dependencies (currently only Python’s standard library is required).
+The structure of this file is:
+fashion-assistant/
+├── main.py                  # Entry point
+├── modules/                 # Package containing core modules
+│   ├── __init__.py
+│   ├── ui.py                # User interaction
+│   ├── engine.py            # Core logic & factory
+│   ├── storage.py           # Persist history
+│   ├── history.py           # Display past suggestions
+│   ├── config.py            # Load config settings
+│   └── notifier.py          # Optional email notifications
+├── assets/                  # Static assets
+│   └── images/              # Outfit images
+│       ├── sunny_relax.jpg
+│       └── ...
+├── data/                    # Data storage
+│   └── history.json         # Saved preferences & suggestions
+├── config/                  # Configuration files
+│   └── settings.json        # email_notify flag, SMTP settings
+└── logs/                    # Log files (if enabled)
+    └── app.log
