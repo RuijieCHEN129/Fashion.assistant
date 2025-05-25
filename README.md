@@ -42,3 +42,4 @@ fashion-assistant/
 │   └── settings.json        # email_notify flag, SMTP settings
 └── logs/                    # Log files (if enabled)
     └── app.log
+ 
