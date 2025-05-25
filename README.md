@@ -21,6 +21,7 @@ Getting Started
 Clone the repo and navigate into its directory.
 
 Install any dependencies (currently only Python’s standard library is required).
+
 The structure of this file is:
 fashion-assistant/
 ├── main.py                  # Entry point
@@ -42,4 +43,5 @@ fashion-assistant/
 │   └── settings.json        # email_notify flag, SMTP settings
 └── logs/                    # Log files (if enabled)
     └── app.log
+How to run: save all files and run the following command in your terminal: python main.py
  
